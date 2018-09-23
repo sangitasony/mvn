@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.crm.campagnitest.Campangin">
+        <methods>
+          <include name="configbc"/>
+          <include name="configbm"/>
+          <include name="configam"/>
+          <include name="configac"/>
+          <include name="createcampngTest"/>
+        </methods>
+      </class> <!-- com.crm.campagnitest.Campangin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
